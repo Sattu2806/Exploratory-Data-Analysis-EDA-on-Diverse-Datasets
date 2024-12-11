@@ -17,6 +17,36 @@ This repository contains exploratory data analysis (EDA),where I explore and ana
 
 ![Screenshot 2024-12-11 at 7 43 48 AM](https://github.com/user-attachments/assets/382cbdda-0a8d-4b09-a62e-da59a5018330)
 
+### What We Used
+- **Dataset:** Global Terrorism Database (GTD), containing information on terrorist incidents worldwide.
+- **Libraries and Tools:**
+  - Python
+  - Pandas and NumPy for data preprocessing and manipulation
+  - Matplotlib and Seaborn for data visualization
+  - Plotly for interactive visualizations
+
+### What We Did
+- **Data Cleaning:**
+  - Handled missing values and ensured consistent formatting for key attributes such as attack types, regions, and target types.
+  - Removed irrelevant columns and normalized categorical variables for analysis.
+- **Feature Engineering:**
+  - Derived new features such as "attack frequency per region" and "fatality-to-injury ratios."
+  - Segmented the data by region, attack type, and time periods.
+- **Exploratory Analysis:**
+  - Identified patterns and trends in terrorist incidents over time.
+  - Highlighted regions and countries most affected by terrorism.
+  - Analyzed common attack types and target categories.
+
+### What We Got
+- **Insights:**
+  - Identified significant trends, such as the increase in terrorism incidents post-2000.
+  - Highlighted the most affected regions, with detailed breakdowns by country and year.
+  - Correlation analysis between fatalities, injuries, and attack types.
+- **Visualizations:**
+  - Time-series plots showing the rise and fall of terrorist activities globally.
+  - Heatmaps indicating attack density by region and year.
+  - Bar charts and pie charts detailing the distribution of attack types and targets.
+
 
 ## 2. Students Data EDA
 
@@ -46,6 +76,36 @@ This repository contains exploratory data analysis (EDA),where I explore and ana
 ![Screenshot 2024-12-11 at 7 45 33 AM](https://github.com/user-attachments/assets/fa4c03a6-5b1e-4ff3-b154-d0165e3db291)
 
 ![Screenshot 2024-12-11 at 7 45 50 AM](https://github.com/user-attachments/assets/7baf506a-4ca5-43af-b773-f176c53c8502)
+
+### What We Used
+- **Dataset:** A comprehensive dataset tracking user behavior on an eCommerce platform, including page views, add-to-cart actions, and purchases.
+- **Libraries and Tools:**
+  - Python
+  - Pandas and NumPy for data preprocessing
+  - Matplotlib and Seaborn for static visualizations
+  - Tableau for advanced dashboard creation
+
+### What We Did
+- **Data Cleaning:**
+  - Standardized event types (e.g., "page view," "add to cart," "purchase") and timestamps.
+  - Handled missing values in critical columns like user ID and session durations.
+- **User Segmentation:**
+  - Grouped users by behavior patterns, such as frequent buyers, cart abandoners, and browsers.
+  - Created cohorts based on session dates to analyze retention.
+- **Exploratory Analysis:**
+  - Analyzed conversion rates at each stage of the user funnel.
+  - Identified factors contributing to cart abandonment.
+  - Tracked session durations and their impact on purchases.
+
+### What We Got
+- **Insights:**
+  - Identified key drop-off points in the user funnel, such as the transition from "add to cart" to "purchase."
+  - Highlighted factors driving higher conversion rates, such as shorter session durations and specific product categories.
+  - Recognized seasonal trends in purchasing behavior.
+- **Visualizations:**
+  - Funnel charts depicting user behavior flow from browsing to purchase.
+  - Heatmaps for session activity distribution by time and day.
+  - Line plots showing retention rates across user cohorts.
 
 ## Usage
 
